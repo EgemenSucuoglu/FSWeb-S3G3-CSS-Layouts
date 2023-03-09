@@ -8,6 +8,7 @@ body {
   margin: 0 auto;
 }
 
+
 .header {
   display: flex;
   flex-direction: column;
@@ -17,6 +18,10 @@ body {
 .header h1 {
   margin-left: 40px;
 }
+@media (max-width: 600px) {
+  .containerClamp {
+   max-width: 500px ;
+  }
 
 .menu ul li {
   display: inline-block;
